@@ -7,5 +7,5 @@ This calculator can be served from any source to any web site just by calling th
 # how to call the Kajculator to my web site?
 first save the full content in your web site directory i.e in a folder called calco
 from any page of your site just add the script:
-# <script type="text/javascrript" src="../calco/Kajculatrice.js" ></script>
+# &lt;script type="text/javascrript" src="../calco/Kajculatrice.js" &gt;&lt;/script&gt;
 # Enjoy :).
