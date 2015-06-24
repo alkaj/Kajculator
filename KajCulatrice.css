@@ -1,0 +1,130 @@
+/********************* Feuille de style de la calculatrice ********************************/
+
+/* conteneur principal */
+#kajc 
+{
+	position:absolute;
+	display:none;
+	text-align:center;
+	background:url("back.jpg") center;
+	width:280px;
+	height:440px;
+	border:groove white 2px;
+	border-radius:13px 13px 14px 14px;
+	padding-top:30px;
+	box-shadow:3px 7px rgba(0,0,0,0.2);
+}
+
+/* zone d'affichage */
+#kajc #contenu
+{
+	display:inline-block;
+	margin:0px;
+	padding:0px;
+}
+
+/* Les touches */
+#kajc .touche
+{
+	display:inline-block;
+	cursor:pointer;
+	border-radius:10px;
+	background:url("touche.jpg");
+	padding-top:5px;
+	margin:3px;
+	color:white;
+	text-align:center;
+	border:solid 1px white;
+	font-weight:bold;
+	font-size:1.2em;
+	height:40px;
+	width:50px;
+}
+
+/* conteneur de la zone d'affichage */
+#kajc #ecran
+{
+	height:50px;
+	width:245px;
+	background-color:rgba(216,216,216,0.5);
+	border:inset white 1px;
+	text-align:right;
+	font-weight:bold;
+	margin:5px 17px;
+	border-radius:10px;
+	font-size:2.3em;
+	font-family:'arial unicode MS';
+	word-wrap:break-word;
+	overflow:hidden;
+}
+
+/* Les separateurs */
+#kajc hr
+{
+	width:90%;
+}
+
+/* La montre */
+#kajc #montre
+{
+	display:inline-block;
+	cursor:pointer;
+	border-radius:10px;
+	background-color:rgba(216,216,216,0.6);
+	padding-top:5px;
+	font-family:roman;
+	margin:6px;
+	text-align:center;
+	font-weight:bold;
+	cursor:text ;
+	height:40px;
+	width:104px;
+	font-size:1.2em;
+	box-shadow:none;
+	border:inset white 1px;
+}
+
+/* La fleche de pli */
+#kajc #plier
+{
+	content:'';
+	display:inline-block;
+	border-bottom:10px solid orange;
+	border-left:10px solid transparent;
+	border-right:10px solid transparent;
+	border-top:10px solid transparent;
+	margin-right:-10px;
+	margin-top:-10px;
+	position:absolute;
+	cursor:pointer;
+	top:5px;
+}
+
+/* La zone de deplacement */
+#kajc #deplacer
+{
+	content:'';
+	display:inline-block;
+	border:10px solid orange;
+	position:absolute;
+	margin-top:0px;
+	margin-bottom:30px;
+	left:110px;
+	top:10px;
+	cursor:move;
+}
+
+/* L'image de veille */
+#kajc + #garde
+{
+	display:none;
+	width:20px;
+	height:35px;
+	position:fixed;
+	top:5px;
+	left:60px;
+	cursor:pointer;
+}
+
+
+/****** fin de la feuille de style  de la calculatrice *******/
